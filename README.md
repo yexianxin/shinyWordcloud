@@ -1,6 +1,6 @@
-<h1> Usage and installation of ShinyWordCloud </h1>
+<h1> <center>Usage and installation of ShinyWordCloud</center> </h1>
 
-This is the repository for the Shiny application presented in "shinyWordCloud: make wordcloud in R with shiny .
+
 
 *****
 
