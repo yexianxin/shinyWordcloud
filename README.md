@@ -7,7 +7,7 @@ This is the repository for the Shiny application presented in "shinyWordCloud: m
 
 #	<font>Use ShinyWordCloud online</font>
 
-ShinyWordCloud is deployed at <a href="https://yexianxin.shinyapps.io/app_ok/" target=_blank>https://yexianxin.shinyapps.io/app_ok/</a>for online use.  
+ShinyWordCloud is deployed at <a href="https://yexianxin.shinyapps.io/shinyWordcloud/" target=_blank>https://yexianxin.shinyapps.io/shinyWordcloud/</a>for online use.  
 ShinyWordCloud is idle until you activate it by accessing the URLs.  
 So, it may take some time when you access this URL for the first time.   
 Once it was activated, ShinyWordCloud could be used smoothly and easily.
