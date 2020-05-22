@@ -97,7 +97,6 @@ shinyUI(
                   actionButton("submit1", strong("Go!"))
       ),
       mainPanel(
-        downloadButton("downloadwordcloud.pdf", "Download"),
         wordcloud2Output("wordcloud2", width = "100%", height = "600px")
       )
     ),
