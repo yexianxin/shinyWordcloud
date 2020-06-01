@@ -41,7 +41,7 @@ install.packages("wordcloud2")
 
 Start an R session using RStudio these lines:  
 ```
-shiny::runGitHub("ShinyWordCloud", "yexianxin")  
+shiny::runGitHub("shinyWordCloud", "yexianxin")  
 ``` 
 *****
 
