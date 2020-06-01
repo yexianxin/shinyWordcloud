@@ -29,12 +29,10 @@ shinyServer(function(input, output, session){
           }
           if(language == 1){
             text = text[text!=""]
-            #?ڿո񴦶?text????
             textl = lapply(text, strsplit," ")
             textu = unlist(textl)
             textg = gsub("\\.|,|\\!|:|;|\\?|\\d","",textu)
             textg = textg[textg!=""]
-            #table(textg)??textg????ͳ?ƴ?Ƶ
             data2 = as.data.frame(table(textg))
             colnames(data2) = c("Word","freq")
             data2 = data2[data2$freq>=input$freq,]
@@ -44,7 +42,6 @@ shinyServer(function(input, output, session){
           } else {
             text = text[text!=""]
             textg <- gsub("[a-zA-Z0-9 1 2 3 4 5 6 7 8 9 0]","",text)
-            #ʹ??segmentCN???????ķִ?
             textu = unlist(lapply(X = textg,FUN = segmentCN))
             textl = lapply(X = textu,FUN = strsplit," ")
             data2 = as.data.frame(table(unlist(textl)))
