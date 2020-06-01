@@ -111,6 +111,6 @@ $ chown -R shiny /srv/shiny-server/shinyWordCloud
 $ start shiny-server  
 ```
 
-Now, the ShinyWordCloud app is available at<a href="#" target=_blank>这是一个超链接</a> 
+Now, the ShinyWordCloud app is available at http://150.109.59.144:3838/shinyWordcloud/
 
 
